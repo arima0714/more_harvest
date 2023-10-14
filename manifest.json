@@ -2,10 +2,15 @@
     "name": "test",
     "version": "1.0.0",
     "manifest_version": 3,
-    "content_scripts": [{
-      "matches": ["http://*/*", "https://*/*"],
-      "js": [
-        "content.js"
-      ]
-    }]
-  }
+    "content_scripts": [
+        {
+            "matches": [
+                "http://*/*",
+                "https://*/*"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ]
+}
