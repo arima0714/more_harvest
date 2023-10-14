@@ -1,7 +1,14 @@
 {
-    "name": "test",
+    "name": "more harvest",
     "version": "1.0.0",
     "manifest_version": 3,
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "description": "more harvest🌾🌾🌾",
+    "permissions": [
+        "storage"
+    ],
     "content_scripts": [
         {
             "matches": [
