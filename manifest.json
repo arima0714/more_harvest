@@ -1,0 +1,11 @@
+{
+    "name": "test",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "content_scripts": [{
+      "matches": ["https://developer.mozilla.org/ja/docs/Web/JavaScript"],
+      "js": [
+        "content.js"
+      ]
+    }]
+  }
