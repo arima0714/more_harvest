@@ -8,7 +8,8 @@
     },
     "description": "more harvest🌾🌾🌾",
     "permissions": [
-        "storage"
+        "storage",
+        "tabs"
     ],
     "content_scripts": [
         {
